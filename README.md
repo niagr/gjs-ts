@@ -18,11 +18,11 @@ We're Javascript programmers. We've seen uglier.
 
 Also note that these declarations only describe the shape of existing JS bindings to C libraries. They do not provide any interop mechanism on their own. That is done by [GJS][GJS]. Therefore, we can't simply extend a GObject class or implement a GObject interface like we can a TypeScript class/interface. For that we have to use the ```lang.Class``` and ```lang.Interface``` functions. More information available here:
 
-[https://wiki.gnome.org/Projects/Gjs/StyleGuide#Classes]()
-[https://mail.gnome.org/archives/commits-list/2015-July/msg02569.html]()
-[https://bugzilla.gnome.org/show_bug.cgi?id=751343]()
-[http://stackoverflow.com/questions/22497990/lang-class-in-javascript]()
-[https://git.gnome.org/browse/gjs/tree/modules/lang.js]()
+- [https://wiki.gnome.org/Projects/Gjs/StyleGuide#Classes]()
+- [https://mail.gnome.org/archives/commits-list/2015-July/msg02569.html]()
+- [https://bugzilla.gnome.org/show_bug.cgi?id=751343]()
+- [http://stackoverflow.com/questions/22497990/lang-class-in-javascript]()
+- [https://git.gnome.org/browse/gjs/tree/modules/lang.js]()
 
 Also note that this only applies to GObject classes/interfaces. For your own TypeScript classes/interfaces you can keep using them the same way. How often do you really need inheritance anyway? o_0
 
