@@ -17,6 +17,7 @@ The important thing to remember is that you can escape the type system at any ti
 We're Javascript programmers. We've seen uglier.
 
 Also note that these declarations only describe the shape of existing JS bindings to C libraries. They do not provide any interop mechanism on their own. That is done by [GJS][GJS]. Therefore, we can't simply extend a GObject class or implement a GObject interface like we can a TypeScript class/interface. For that we have to use the ```lang.Class``` and ```lang.Interface``` functions. More information available here:
+
 https://wiki.gnome.org/Projects/Gjs/StyleGuide#Classes
 https://mail.gnome.org/archives/commits-list/2015-July/msg02569.html
 https://bugzilla.gnome.org/show_bug.cgi?id=751343
