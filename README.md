@@ -8,7 +8,7 @@ They have NOT been tested yet. Do not use in production code.
 Currently I'm testing it by using it to write an application. My aim is to submit this to DefinitelyTyped.
 
 ## Usage
-The vast majority of the classes, interfaces, functions, unions, enums and bitfields are there. Sometimes, since the GObject property names are computed dynamically, methods, signals and properties often end up having the same names and interfaces overload inherited methods which doesn't fly with TypeScript. For this reason, certain classes, methods, etc. are ommited manually. These are commented out in the declaration files.
+The vast majority of the classes, interfaces, functions, unions, enums and bitfields are there. Sometimes, since the GObject property names are computed dynamically, methods, signals and properties often end up having the same names and interfaces overload inherited methods which doesn't fly with TypeScript. For this reason, certain classes, methods, etc. are omitted manually. These are commented out in the declaration files.
 
 The important thing to remember is that you can escape the type system at any time by temporarily casting to ```any``` as shown below.
 ```typescript
